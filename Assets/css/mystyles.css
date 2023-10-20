@@ -1,0 +1,61 @@
+.nav 
+{
+    color: #0D6EFD;
+    text-align: center;
+    font-family: Lemonada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 380;
+    line-height: normal;
+    text-decoration-line: underline;
+    justify-content: space-around;
+} 
+
+.hr 
+{
+color:black
+}
+
+main .bandeau 
+{
+    background-image: url(/Assets/img/Fon1_vermiw.jpeg);
+    min-height: 368px;
+    padding: 24px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.menu
+{
+    color: #000;
+    text-align: center;
+    font-family: Italianno;
+    font-size: 50px;
+    font-style:italic;
+    font-weight: 400;
+    line-height: normal;
+flex-shrink: 0;
+} 
+
+.menu2
+{
+    color: #000;
+    text-align: center;
+    font-family: Italianno;
+    font-size: 50px;
+    font-style:italic;
+    font-weight: 400;
+    line-height: normal;
+flex-shrink: 0;
+} 
+
+.bandeau2 
+{
+    background-image: url(/Assets/img/Fon2\ bas.jpeg);
+    min-height: 368px;
+    padding: 24px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
