@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="title" content="The Disrtict-resto online">
-    <meta name="description" content="Large assortiment de menus-pizzas, burgers, sandwichs, wraps, salades, légumes. Livrasson gratuit"/>
+    <meta name="description"
+        content="Large assortiment de menus-pizzas, burgers, sandwichs, wraps, salades, légumes. Livrasson gratuit" />
     <meta name="keywords" content="resto, burger, pizza, salade, livrason gratuit">
     <link rel="stylesheet" href="css/mystyles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,179 +17,173 @@
 
 <body>
 
+    <!--header-->
 
-    <div class="container-fluid"></div>
+    <header class="container-fluid">
 
-    <header class="logo">
+        <div class="row">
+            <div class="col-4 imgs2">
+                <img src="img/facebook_profile_image.png" class="img-fluid" alt="Logo"
+                    title="Logo">
+            </div>
+            <div class="col-8 text-stert m-auto d-flex justify-content-around">
+                <a class="nav" href="accueil.html">Accueil</a>
+                <a class="nav" href="Catégories.html">Catégorie</a>
+                <a class="nav" href="Plats de Catégorie.html">Plats</a>
+                <a class="nav" href="Contact.html">Contact</a>
+            </div>
+        </div>
 
+    </header>
 
-        <!--header-->
-        <header class="container-fluid">
+    <main>
 
-            <div class="row">
-                <div class="col-4 imgs2">
-                    <img src="img/linkedin_banner_image_2.png" width="300" height="300" class="img-fluid" alt="Logo"
-                        title="Logo">
-                </div>
-                <div class="col-8 text-stert m-auto d-flex justify-content-around">
+        <hr>
 
+        <!--Img fon-->
+        <div class="container-fluid bandeau">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        <hr style="border: 10px solid">
 
-                    <a class="nav" href="accueil.html">Accueil</a>
-                    <a class="nav" href="Catégories.html">Catégorie</a>
-                    <a class="nav" href="Plats de Catégorie.html">Plats</a>
-                    <a class="nav" href="Contact.html">Contact</a>
+        <!--Cards-->
+        <!--1-->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="menu d-flex align-items-center justify-content-around ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/pizza chorizo.jpg" class="card-img-top" alt="pizza">
+                        <div class="card-body">
+                            <h1 class="card-title">Pizza</h1>
+                            <h5 class="card-text">Large assortiment de pizzas pour une variété de préférences</h5>
+                            <a href="Plats de Catégorie Pizza.html" class="btn btn-outline-success">Choisissez votre
+                                pizza</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/spaghetti-legumes.jpg" class="card-img-top" alt="pizza">
+                        <div class="card-body">
+                            <h1 class="card-title">Pâtes</h1>
+                            <h5 class="card-text">Pâtes et lasagnes au choix</h5>
+                            <a href="Catégories.html" class="btn btn-outline-success">Choisissez votre pâtes</a>
+                        </div>
+                    </div>
 
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/menu-burger.jpg" class="card-img-top" alt="pizza">
+                        <div class="card-body">
+                            <h1 class="card-title">Burgers</h1>
+                            <h5 class="card-text">Créez votre propre menu</h5>
+                            <a href="Catégories.html" class="btn btn-outline-success">Choisissez votre pâtes</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </header>
-
-        <main>
-
-            <hr>
-
-            <!--Img fon-->
-            <div class="container-fluid bandeau">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-            <hr style="border: 10px solid">
-
-            <!--Cards-->
-            <!--1-->
+            <!--2-->
             <div class="row mb-5">
-                <div class="col-12">
+                <div class="col-12 mt-5">
                     <div class="menu d-flex align-items-center justify-content-around ">
+
                         <div class="card" style="width: 18rem;">
-                            <img src="img/pizza chorizo.jpg" class="card-img-top" alt="pizza">
+                            <img src="img/wrap_cat.jpg" class="card-img-top" alt="pizza">
                             <div class="card-body">
-                                <h1 class="card-title">Pizza</h1>
-                                <h5 class="card-text">Large assortiment de pizzas pour une variété de préférences</h5>
-                                <a href="Plats de Catégorie Pizza.html" class="btn btn-outline-success">Choisissez votre pizza</a>
+                                <h1 class="card-title">Sandwichs et wraps</h1>
+                                <h5 class="card-text">Nouritture délicieuse et legere - choisissez ce que
+                                    vous voulez manger aujourd'hui </h5>
+                                <a href="Catégories.html" class="btn btn-outline-success">Choisissez votre
+                                    plat </a>
                             </div>
                         </div>
+
+
                         <div class="card" style="width: 18rem;">
-                            <img src="img/spaghetti-legumes.jpg" class="card-img-top" alt="pizza">
+                            <img src="img/salade.jpeg" class="card-img-top" alt="pizza">
                             <div class="card-body">
-                                <h1 class="card-title">Pâtes</h1>
-                                <h5 class="card-text">Pâtes et lasagnes au choix</h5>
-                                <a href="Catégories.html" class="btn btn-outline-success">Choisissez votre pâtes</a>
+                                <h1 class="card-title">Salades</h1>
+                                <h5 class="card-text">Les salades les plus délicieuses et populaires</h5>
+                                <a href="Catégories.html" class="btn btn-outline-success">Choisissez votre
+                                    salade</a>
                             </div>
                         </div>
 
                         <div class="card" style="width: 18rem;">
-                            <img src="img/menu-burger.jpg" class="card-img-top" alt="pizza">
+                            <img src="img/bowl.jpg" class="card-img-top" alt="pizza">
                             <div class="card-body">
-                                <h1 class="card-title">Burgers</h1>
-                                <h5 class="card-text">Créez votre propre menu</h5>
-                                <a href="Catégories.html" class="btn btn-outline-success">Choisissez votre pâtes</a>
+                                <h1 class="card-title">Plats de légumes</h1>
+                                <h5 class="card-text">Grand assortiment de plats de légumes</h5>
+                                <a href="Catégories.html" class="btn btn-outline-success">Choisissez
+                                    votre plat</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--2-->
-                <div class="row mb-5">
-                    <div class="col-12 mt-5">
-                        <div class="menu d-flex align-items-center justify-content-around ">
+            </div>
 
-                            <div class="card" style="width: 18rem;">
-                                <img src="img/wrap_cat.jpg" class="card-img-top" alt="pizza">
-                                <div class="card-body">
-                                    <h1 class="card-title">Sandwichs et wraps</h1>
-                                    <h5 class="card-text">Nouritture délicieuse et legere - choisissez ce que
-                                        vous voulez manger aujourd'hui </h5>
-                                    <a href="Catégories.html" class="btn btn-outline-success">Choisissez votre
-                                        plat </a>
-                                </div>
-                            </div>
+            <!--3 pic-->
 
+            <div class="row mb-5">
 
-                            <div class="card" style="width: 18rem;">
-                                <img src="img/salade.jpeg" class="card-img-top" alt="pizza">
-                                <div class="card-body">
-                                    <h1 class="card-title">Salades</h1>
-                                    <h5 class="card-text">Les salades les plus délicieuses et populaires</h5>
-                                    <a href="Catégories.html" class="btn btn-outline-success">Choisissez votre
-                                        salade</a>
-                                </div>
-                            </div>
-
-                            <div class="card" style="width: 18rem;">
-                                <img src="img/bowl.jpg" class="card-img-top" alt="pizza">
-                                <div class="card-body">
-                                    <h1 class="card-title">Plats de légumes</h1>
-                                    <h5 class="card-text">Grand assortiment de plats de légumes</h5>
-                                    <a href="Catégories.html" class="btn btn-outline-success">Choisissez
-                                        votre plat</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-4 imgs d-flex align-items-center justify-content-around">
+                    <span class="imgs">
+                        <img src="img/pizza hawaii.jpg" width="170" height="100" class="img-fluid" alt="haw"
+                            title="haw">
+                    </span>
                 </div>
 
-                <!--3 pic-->
 
-                <div class="row mb-5">
-               
-                        <div class="col-4 imgs d-flex align-items-center justify-content-around">
-                            <span class="imgs"> 
-                            <img src="img/pizza hawaii.jpg" width="170" height="100" class="img-fluid" alt="haw"
-                            title="haw"> 
-                            </span>
-                        </div>
-
-
-                        <div class="col-4 imgs d-flex align-items-center justify-content-around">
-                            <span class="imgs"> 
-                            <img src="img/cesar_salad.jpg" width="150" height="100" class="img-fluid" alt="haw" title="haw">
-                            </span>
-                        </div>
-
-
-                        <div class="col-4 imgs d-flex align-items-center justify-content-around">
-                            <span class="imgs"> 
-                            <img src="img/burger.jpg" width="200" height="100" class="img-fluid" alt="haw" title="haw">
-                            </span>
-                        </div>
-                        <i class='bx bxl-instagram-alt' style='color:#451'  ></i>
+                <div class="col-4 imgs d-flex align-items-center justify-content-around">
+                    <span class="imgs">
+                        <img src="img/cesar_salad.jpg" width="150" height="100" class="img-fluid" alt="haw" title="haw">
+                    </span>
                 </div>
+
+
+                <div class="col-4 imgs d-flex align-items-center justify-content-around">
+                    <span class="imgs">
+                        <img src="img/burger.jpg" width="200" height="100" class="img-fluid" alt="haw" title="haw">
+                    </span>
+                </div>
+                <i class='bx bxl-instagram-alt' style='color:#451'></i>
+            </div>
 
             <!-- <hr style="border: 10px solid"> -->
 
-        </main>
+    </main>
 
-        <!--Footer-->
+    <!--Footer-->
 
-        <footer class="d-flex p-3 mb-2 text-emphasis-info">
-            <div class="container-fluid bandeau2">
+    <footer class="d-flex p-3 mb-2 text-emphasis-info">
+        <div class="container-fluid bandeau2">
 
-                <div class="container p-1">
-                    <!-- Section: Social media -->
-                    <section class="mb-1">
-                        <a class="btn btn-floating" href="https://www.instagram.com/" role="button" color=><ion-icon
-                                name="logo-instagram"></ion-icon></a>
-                        <a class="btn btn-floating" href="https://www.facebook.com/?locale=fr_FR" role="button" color=><ion-icon
-                                name="logo-facebook"></ion-icon></a>
-                    </section>
-                </div>
-                
-                <!-- <img class="col-1" src="img/pngegg (1).png"> 
+            <div class="container p-1">
+                <!-- Section: Social media -->
+                <section class="mb-1">
+                    <a class="btn btn-floating d-flex align-items-end" href="https://www.instagram.com/" role="button"
+                        color=><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a class="btn btn-floating d-flex align-items-end" href="https://www.facebook.com/?locale=fr_FR"
+                        role="button" color=><ion-icon name="logo-facebook"></ion-icon></a>
+                </section>
+            </div>
+
+            <!-- <img class="col-1" src="img/pngegg (1).png"> 
                 <img class="col-1" src="img/pngegg (2).png">  
-                 -->
-            </div> 
+                -->
+        </div>
 
-        </footer>
+    </footer>
 
-        <!--!-->
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+    <!--!-->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 
 
