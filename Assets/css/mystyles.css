@@ -91,7 +91,6 @@ object-fit: cover;
     font-family: Italianno; 
 } 
 
-
 .imgs2 
 {
 display:inline-block;
@@ -106,10 +105,23 @@ height:100%;
 object-fit: cover;
 }  
 
-@media screen and (max-width: 960px)
+@media screen and (max-width: 992px)
 {
-    .nav
+    .nav-item
     {
-      flex-direction: column;
+    flex-direction: column; 
+    }
+    .menu 
+    {
+    flex-direction: column;
+    } 
+    .card 
+    {
+    flex-direction: column;   
+    }
+    .button2 
+    {
+    /* flex-wrap: wrap; */
+    align-content: space-between;
     }
 }
