@@ -17,7 +17,7 @@
 .bandeau2 
 {
     /* background-image: url(/Assets/img/Fon2\ bas.jpeg); */
-    background: url(/Assets/img/002.jpg) no-repeat;
+    background: url(/Assets/img/GIF-1.gif) no-repeat;
     min-height: 364px;
     background-position: 50%;
     background-size: cover;
@@ -64,10 +64,29 @@
 }
 
 .bandeau3 {
-    background-image: url(/Assets/img/pizza\ cat\ fon.jpg);
+    background-image: url(/Assets/img/0pizza.gif);
     min-height: 368px;
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
     font-family: Italianno; 
-} 
+}  
+
+.bandeau11 
+{
+    background-image: url(/Assets/img/ggif.gif);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.bandeau21 {
+
+    background-image: url(/Assets/img/00000.jpg);
+    min-height: 368px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    font-family: Italianno; 
+}
